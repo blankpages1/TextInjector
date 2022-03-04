@@ -1,0 +1,3 @@
+cmd.exe /q
+500: cd c:/
+2000: tree c:/windows

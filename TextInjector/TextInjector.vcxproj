@@ -139,7 +139,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CommandQueue.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="PassthroughTerminal.cpp" />
+    <ClCompile Include="SubProgram.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="testfile.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommandQueue.h" />
+    <ClInclude Include="PassthroughTerminal.h" />
+    <ClInclude Include="SubProgram.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
